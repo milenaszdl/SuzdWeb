@@ -5,6 +5,8 @@
   --primary-color3: #939393;
   font-family: "Inter", sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
+  margin: auto;
 }
 
 body {
@@ -19,17 +21,27 @@ p {
 }
 
 h1 {
+  margin-left: 1.5rem;
+  width: 34.5rem;
+  height: 3.9rem;
   font-size: 3.2rem;
   line-height: 1.2;
   color: var(--primary-color);
   font-weight: 600;
+  margin-bottom: 0.8rem;
 }
 
 h2 {
+  margin: 0;
+  margin-left: 1.5rem;
+  width: 25.4rem;
+  height: 6.2rem;
   font-size: 2.6rem;
   line-height: 1.2;
   color: var(--primary-color);
   font-weight: 600;
+
+  letter-spacing: -0.03em;
 }
 
 h3 {
@@ -40,28 +52,34 @@ h3 {
 }
 
 h4 {
+  margin: 0;
   font-size: 1.8rem;
   line-height: 1.2;
   color: var(--primary-color);
   font-weight: 600;
 }
 
-.abutt {
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
+.abuttShopNow {
+  margin: 0;
+  margin-left: 1.5rem;
+  width: 6.9rem;
+  height: 1.8rem;
+
+  display: block;
   text-align: center;
+  padding: 1.3rem 3.9rem;
+
   font-size: 1.5rem;
   line-height: 1.2;
   color: var(--primary-color2);
   font-weight: 600;
-}
+  letter-spacing: -0.03em;
+  text-decoration: none;
 
-.abutt:link,
-.abutt:visited,
-.abutt:focus {
   background: #393939;
-  border-radius: 82px;
+  border-radius: 8.2rem;
+
+  white-space: nowrap;
 }
 
 .balmlabs {
@@ -72,21 +90,40 @@ h4 {
 }
 
 .mininews {
+  margin: 0;
+  margin-top: 5.6rem;
+  margin-left: 1.5rem;
+  padding: 0.4rem 1rem;
+
+  width: 38px;
+  height: 15px;
   font-size: 1.2rem;
   line-height: 1.25;
   color: var(--primary-color);
   font-weight: 600;
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
 }
 
 ol {
   list-style-type: none;
+  margin: 0;
+  margin-bottom: 3.4rem;
+  padding-inline-start: 1.5rem;
 }
 
 ul {
   list-style-type: none;
+  padding-left: 1.5rem;
+  margin-bottom: 4.2rem;
 }
 
 .natalia {
+  margin: 0;
+  margin-bottom: 2.1rem;
+  margin-left: 1.6rem;
+  width: 31.3rem;
+  height: 9.6rem;
   font-size: 2rem;
   line-height: 1.2;
   color: var(--primary-color);
@@ -94,12 +131,19 @@ ul {
 }
 
 .aboutvers {
+  margin-left: 1.5rem;
+  width: 34.5rem;
+  height: 21.6rem;
   font-size: 1.4rem;
   line-height: 1.7;
   color: var(--primary-color);
 }
 
 .poloski {
+  margin: 0;
+  padding-top: 2.3rem;
+  padding-bottom: 2.1rem;
+  padding-left: 1.5rem;
   font-size: 1.5rem;
   line-height: 1.2;
   color: var(--primary-color2);
@@ -115,52 +159,245 @@ ul {
 
 footer {
   background-color: #181818;
+  margin-left: 0rem;
 }
 
 .rights {
+  margin: 0;
+  padding-top: 2.1rem;
+  padding-bottom: 2.1rem;
+  padding-left: 1.4rem;
+  width: 25.4rem;
+  height: 1.8rem;
   font-size: 1.5rem;
   line-height: 1.2;
   color: var(--primary-color3);
 }
 
 .backsection {
+  margin: 0;
+  margin-left: 0rem;
+  padding: 4.4rem 0rem;
+  width: 100%;
   background-color: #f9f9f9;
 }
 
-.abuttwh {
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
+.abuttRead {
+  box-sizing: border-box;
+  margin: 0;
+  width: 31.3rem;
+  max-width: 90%;
+  height: 4.6rem;
+  margin-left: 1.6rem;
+  margin-bottom: 2.4rem;
+
+  display: block;
   text-align: center;
+  padding: 1.4rem 11.95rem;
+
   font-size: 1.5rem;
   line-height: 1.2;
   color: #393939;
   font-weight: 600;
-}
+  letter-spacing: -0.03em;
+  text-decoration: none;
 
-.abuttwh:link,
-.abuttwh:visited,
-.abuttwh:focus {
-  background: var(--primary-color2);
-  border: 1px solid #939393;
-  border-radius: 82px;
+  border: 0.1rem solid #939393;
+  border-radius: 8.2rem;
+
+  white-space: nowrap;
 }
 
 .abuttmoney {
-  outline: none;
-  text-decoration: none;
-  display: inline-block;
+  margin: 0;
+  margin-top: 1.8rem;
+
+  display: block;
   text-align: center;
+  padding: 0.8rem 1.4rem;
+
+  width: 7.7rem;
+  height: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+
+  white-space: nowrap;
+}
+
+/* header{
+  width: 37.5rem;
+  height: 5.3rem;
+} */
+
+.abuttPopular {
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 1.5rem;
+  width: 34.5rem;
+  max-width: 92%;
+  height: 4.4rem;
+
+  display: block;
+  text-align: center;
+  padding: 1.3rem 3.9rem;
+
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--primary-color2);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+
+  background: #393939;
+  border-radius: 8.2rem;
+
+  white-space: nowrap;
+}
+
+.abuttBigShopNow {
+  box-sizing: border-box;
+  margin-top: 0rem;
+  margin-left: 1.5rem;
+  width: 34.9rem;
+  max-width: 92%;
+  height: 4.4rem;
+
+  display: block;
+  text-align: center;
+  padding: 1.3rem 3.9rem;
+
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--primary-color2);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  text-decoration: none;
+
+  background: var(--primary-color);
+  border-radius: 8.2rem;
+
+  white-space: nowrap;
+}
+
+.textWeCreate {
+  margin: 0;
+  margin-left: 1.5rem;
+  margin-bottom: 0.8rem;
+  width: 34.2rem;
+  height: 5rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #393939;
+}
+
+/* .fashion1{
+  position: relative;
+  width: 222px;
+  height: 396px;
+  left: -34px;
+}
+
+.fashion2{
+  position: relative;
+  width: 237px;
+  height: 424px;
+  left: 175px;
+  right: 0;
+} */
+
+.bestseller {
+  margin: 0;
+  margin-left: 1.5rem;
+  margin-top: 1.9rem;
+  margin-bottom: 2.8rem;
+  width: 9.8rem;
+  height: 1.7rem;
+
+  display: block;
+  text-align: center;
+  padding: 0.4rem 0.8rem;
+
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--primary-color);
+  font-weight: 600;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+}
+
+.step {
+  /* margin-left:1.5rem; */
+  margin: 0;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  width: 5rem;
+  height: 1.7rem;
+  padding: 0.4rem 0.8rem;
+
+  display: block;
+  text-align: center;
+
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: var(--primary-color);
+  font-weight: 600;
+
+  border: 0.1rem solid #000000;
+  border-radius: 0.2rem;
+}
+
+.stepdesc {
+  margin: 0;
+}
+
+.awithdec {
+  color: #393939;
+  font-weight: bold;
+}
+
+.newsarticle {
+  margin: 0;
+  margin-top: 1.4rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.datestyle {
+  margin: 0;
+  margin-top: 0.1rem;
+  margin-bottom: 0.7rem;
+  width: 7.1rem;
+  height: 1.5rem;
   font-size: 1.2rem;
   line-height: 1.25;
   color: var(--primary-color);
   font-weight: 600;
 }
 
-.abuttmoney:link,
-.abuttmoney:visited,
-.abuttmoney:focus {
-  background: var(--primary-color2);
-  border: 1px solid #000000;
-  border-radius: 2px;
+.margfordate {
+  margin-left: 1.6rem;
+  white-space: nowrap;
+}
+
+.aboutversheader {
+  margin: 0;
+  margin-left: 1.5rem;
+  margin-bottom: 0.6rem;
+  width: 18.6rem;
+  height: 3.1rem;
+  font-size: 2.6rem;
+  line-height: 1.2;
+  color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: -0.03em;
 }

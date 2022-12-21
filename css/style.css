@@ -602,11 +602,11 @@ footer {
 }
 
 .wrapper {
-  max-width: 1170px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
+  /* padding-left: 16px;
+  padding-right: 16px; */
 }
 
 .jacket{
@@ -624,6 +624,7 @@ footer {
 .buttonsinline{
   display: flex;
   justify-content: space-between;
+  margin-right: 1.5rem;
 }
 
 .abuttViewAllSmall{
@@ -699,6 +700,7 @@ form{
 .aboutglobal{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .aboutcolumn{
@@ -818,6 +820,10 @@ form{
     display: flex;
     flex-direction: row;
     padding-bottom: 0;
+  }
+
+  .hrhidden{
+    display: none;
   }
 
   ul {
@@ -1176,6 +1182,11 @@ form{
     top: -13.5rem;
     margin: 0;
     margin-left: auto;
+  }
+
+  .manspace{
+    display: flex;
+    justify-content: space-between;
   }
 
   .man1{

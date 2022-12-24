@@ -663,6 +663,7 @@ form {
   overflow: auto;
   margin-top: 1.3rem;
   margin-bottom: 1.3rem;
+  object-fit: cover;
 }
 
 .cyberlove {
@@ -682,6 +683,8 @@ form {
   width: 31.3rem;
   height: 20.9rem;
   margin-left: 1.6rem;
+  object-fit: cover;
+  object-position: left top;
 }
 
 .newsglobaldiv {
@@ -854,6 +857,75 @@ form {
 
 .mangradient{
   display: none;
+}
+
+.formforuser{
+  margin: 3rem auto;
+  width: 250px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+body > footer {
+  position: sticky;
+  top: 100vh;
+}
+
+.formlabel{
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+.userinfo{
+  padding: 1em;
+  width: 15.8rem;
+  margin: 1rem auto;
+  border: 1px solid #CCC;
+}
+
+.sendresetdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.formbutton{
+  width: auto;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:1rem 1rem;
+
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: var(--primary-color2);
+  font-weight: 400;
+  letter-spacing: -0.03em;
+
+  background: Var(--primary-color3);
+  border-radius: 8.2rem;
+
+  white-space: nowrap;
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
 @media all and (min-width: 885px) {
@@ -1318,6 +1390,7 @@ form {
     /* margin-top: 1.3rem;
     margin-bottom: 1.3rem; */
     margin-right: 11.2rem;
+    /* object-fit: cover; */
   }
 
   .cyberlove {

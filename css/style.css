@@ -112,31 +112,37 @@ h4 {
 .abuttShopNow:hover{
   background-color: var(--primary-color);
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .abuttShopNow:active{
   background-color: var(--primary-color3);
   transform: scale(95%);
+  /* transition: all 0.7s; */
 }
 
 .abuttViewAllSmall:hover{
   background-color: var(--primary-color);
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .abuttViewAllSmall:active{
   background-color: var(--primary-color3);
   transform: scale(95%);
+  /* transition: all 0.7s; */
 }
 
 .abuttViewAll:hover{
   background-color: var(--primary-color);
   transform: scale(100%);
+  transition: all 0.7s;
 }
 
 .abuttViewAll:active{
   background-color: var(--primary-color3);
   transform: scale(90%);
+  /* transition: all 0.7s; */
 }
 
 .balmlabs {
@@ -616,6 +622,7 @@ footer {
 .abuttVisitComp:hover{
   background-color: var(--primary-color);
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .abuttVisitComp:active{
@@ -626,6 +633,7 @@ footer {
 .abuttInst1:hover{
   background-color: var(--primary-color);
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .abuttInst1:active{
@@ -636,6 +644,7 @@ footer {
 .abuttRead:hover{
   background-color: var(--primary-color2);
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .abuttRead:active{
@@ -646,6 +655,7 @@ footer {
 .abuttBigShopNow:hover{
   background-color: var(--primary-color3);
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .abuttBigShopNow:active{
@@ -656,6 +666,7 @@ footer {
 .asocials2:hover{
   /* background-color: var(--primary-color3); */
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .asocials2:active{
@@ -666,6 +677,7 @@ footer {
 .asocials:hover{
   /* background-color: var(--primary-color3); */
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .asocials:active{
@@ -677,6 +689,7 @@ footer {
   /* background-color: var(--primary-color3); */
   transform: scale(110%);
   color:#9e7bb5;
+  transition: all 0.7s;
 }
 
 .functext:active{
@@ -687,6 +700,7 @@ footer {
 .linklist:hover{
   /* background-color: var(--primary-color3); */
   transform: scale(110%);
+  transition: all 0.7s;
 }
 
 .linklist:active{
@@ -697,6 +711,7 @@ footer {
 .formbutton:hover{
   /* background-color: var(--primary-color3); */
   transform: scale(105%);
+  transition: all 0.7s;
 }
 
 .formbutton:active{
@@ -707,6 +722,7 @@ footer {
 .formbuttonreset:hover{
   /* background-color: var(--primary-color3); */
   transform: scale(105%);
+  transition: all 0.7s;
 }
 
 .formbuttonreset:active{
@@ -717,6 +733,7 @@ footer {
 .poloski.hover{
   transform: scale(110%);
   color:#9e7bb5;
+  transition: all 0.7s;
 }
 
 .poloski:active{

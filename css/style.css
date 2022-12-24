@@ -102,6 +102,32 @@ h4 {
 
 .abuttShopNow:hover{
   background-color: var(--primary-color);
+  transform: scale(110%);
+}
+
+.abuttShopNow:active{
+  background-color: var(--primary-color3);
+  transform: scale(95%);
+}
+
+.abuttViewAllSmall:hover{
+  background-color: var(--primary-color);
+  transform: scale(110%);
+}
+
+.abuttViewAllSmall:active{
+  background-color: var(--primary-color3);
+  transform: scale(95%);
+}
+
+.abuttViewAll:hover{
+  background-color: var(--primary-color);
+  transform: scale(100%);
+}
+
+.abuttViewAll:active{
+  background-color: var(--primary-color3);
+  transform: scale(90%);
 }
 
 .balmlabs {
@@ -576,6 +602,121 @@ footer {
   white-space: nowrap;
   display: none;
   box-shadow: 10px 5px #9e7bb5;
+}
+
+.abuttVisitComp:hover{
+  background-color: var(--primary-color);
+  transform: scale(110%);
+}
+
+.abuttVisitComp:active{
+  background-color: var(--primary-color3);
+  transform: scale(95%);
+}
+
+.abuttInst1:hover{
+  background-color: var(--primary-color);
+  transform: scale(110%);
+}
+
+.abuttInst1:active{
+  background-color: var(--primary-color3);
+  transform: scale(95%);
+}
+
+.abuttRead:hover{
+  background-color: var(--primary-color2);
+  transform: scale(110%);
+}
+
+.abuttRead:active{
+  background-color: var(--primary-color2);
+  transform: scale(95%);
+}
+
+.abuttBigShopNow:hover{
+  background-color: var(--primary-color3);
+  transform: scale(110%);
+}
+
+.abuttBigShopNow:active{
+  background-color: var(--primary-color);
+  transform: scale(95%);
+}
+
+.asocials2:hover{
+  /* background-color: var(--primary-color3); */
+  transform: scale(110%);
+}
+
+.asocials2:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.asocials:hover{
+  /* background-color: var(--primary-color3); */
+  transform: scale(110%);
+}
+
+.asocials:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.functext:hover{
+  /* background-color: var(--primary-color3); */
+  transform: scale(110%);
+  color:#9e7bb5;
+}
+
+.functext:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.linklist:hover{
+  /* background-color: var(--primary-color3); */
+  transform: scale(110%);
+}
+
+.linklist:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.formbutton:hover{
+  /* background-color: var(--primary-color3); */
+  transform: scale(105%);
+}
+
+.formbutton:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.formbuttonreset:hover{
+  /* background-color: var(--primary-color3); */
+  transform: scale(105%);
+}
+
+.formbuttonreset:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.poloski.hover{
+  transform: scale(110%);
+  color:#9e7bb5;
+}
+
+.poloski:active{
+  /* background-color: var(--primary-color); */
+  transform: scale(95%);
+}
+
+.polefocus:focus{
+  color:#cf529a;
 }
 
 .manekeny {

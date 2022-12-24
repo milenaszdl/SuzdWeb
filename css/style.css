@@ -26,6 +26,15 @@ p {
   height: 22px;
 }
 
+::selection {
+  color:#ffe1ff;
+  background: #8b4789;
+}
+
+::placeholder{
+  color:#537aaf;
+}
+
 h1 {
   margin-left: 1.5rem;
   width: 34.5rem;
@@ -1093,6 +1102,7 @@ body > footer {
   'GRAD' 0,
   'opsz' 48
 } */
+
 
 @media all and (min-width: 885px) {
   .mangradient{
